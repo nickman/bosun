@@ -96,6 +96,7 @@ type Conf struct {
 	HbaseRegions        bool
 	Oracles             []Oracle
 	Fastly              []Fastly
+	EnvoyHost          	string
 }
 
 type HAProxy struct {
